@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <style>
+      div{
+        background-color: aliceblue;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 20px;
+      }
+      input[type="text"]{
+      border-radius: 10px;
+      background-color: white;
+      width: 100%;
+      padding: 10px;
+      margin-top: 15px;
+      box-sizing: border-box;
+      border-color:grey;
+      }
+      input[type="submit"]{
+        background-color: rgb(136, 215, 247);
+        color: white;
+        width: 100%;
+        /* margin: 30px; */
+        padding: 10px;
+        margin-top: 15px;
+        border-radius: 10px;
+        border-color: rgb(141, 144, 187);
+      }
+      input[type="submit"]:hover{
+        background-color: #0255d1;
+      }
+      h1{
+        margin-left:20px;
+      }
+    </style>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Form using html css</h1>
+        <div>
+            <form >
+                <label for="fname"> First name:
+                    <input type="text" id="fname" name="firstname" placeholder="firstname">
+                </lable>
+                <br>
+                <br>
+                <label for="lname"> Last name:
+                    <input type="text" id="lname" name="lastname" placeholder="lastname">
+                </lable><br> <br>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </body>
+</html>
